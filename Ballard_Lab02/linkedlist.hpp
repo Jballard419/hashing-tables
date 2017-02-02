@@ -49,8 +49,8 @@ void linkedlist<T>::insert(const T val, node<T>* temp)
   }
   else if (temp->getnext()==nullptr) {
     node<T>* newnode= new node<T>(val);
-    newnode->setprevious(temp);
-    temp->setnext(newnode);
+    newnode->setnext(m_top);
+    m_top=newnode;
 
 	}
   else
@@ -106,6 +106,39 @@ void linkedlist<T>::delete_node(const T val, node<T>* temp)
 
 	return;
 	//so much easier when you have the pointers pointing down
+}
+template <typename T>
+bool linkedlist<T>::find(const T val)
+{
+  return find(val,m_top);
+
+
+}
+
+template <typename T>
+bool linkedlist<T>::find(const T val, node<T>* temp)
+{
+
+
+
+
+	if(temp == nullptr)
+	{
+
+  return false;
+	}
+	else if (temp->getvalue()==val)
+	{
+    return true;
+  }
+  else
+  {
+    return delete_node(val,temp->getnext());
+  }
+
+
+	return false;
+	
 }
 template <typename T>
 void linkedlist<T>::reverse()

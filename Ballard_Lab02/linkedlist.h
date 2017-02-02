@@ -31,7 +31,11 @@ class linkedlist
 	//in:
 	//out the value at the top of the linkedlist
 	//called: when the user wants to remove the value at the top of the linkedlist
-	 void delete_node(const T val, node<T>* temp);
+	void delete_node(const T val, node<T>* temp);
+
+  bool find(const T val);
+
+  bool find(const T val, node<T>* temp );
 	//in the linkedlist
 	//out: the value at the top of the linkedlist
 	//called: when the user wants to store the value at the top of the linkedlist without removing it
