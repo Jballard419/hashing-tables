@@ -13,6 +13,12 @@ hash_table<T>::hash_table(int prime_num)
 template <typename T>
 hash_table<T>::~hash_table()
 {
+  for(int i =0; i<size_of_map; i++)
+  {
+
+    delete(hash_map[i]);
+  }
+  delete(hash_map);
 
 }
 template <typename T>
