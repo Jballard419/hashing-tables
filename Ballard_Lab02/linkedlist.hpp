@@ -49,6 +49,7 @@ void linkedlist<T>::insert(const T val, node<T>* temp)
   }
   else if (temp->getnext()==nullptr) {
     node<T>* newnode= new node<T>(val);
+		m_top->setprevious(newnode);
     newnode->setnext(m_top);
     m_top=newnode;
 
@@ -138,7 +139,7 @@ bool linkedlist<T>::find(const T val, node<T>* temp)
 
 
 	return false;
-	
+
 }
 template <typename T>
 void linkedlist<T>::reverse()

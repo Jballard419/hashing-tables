@@ -6,7 +6,7 @@ hash_table<T>::hash_table(int prime_num)
   {
     hash_map[i]= new linkedlist<int>();
   }
-  int size_of_map=prime_num;
+  size_of_map=prime_num;
 
 
 }
