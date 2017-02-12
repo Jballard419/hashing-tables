@@ -29,8 +29,26 @@ int main(int argc, char const *argv[]) {
  int input;
 
  in>>value;
+ std::cout<<"Select an action:"<<std::endl;
+ std::cout<<"1- quadratic"<<std::endl;
+ std::cout<<"2- double hashing"<<std::endl;
+ std::cout<<"3- exit"<<std::endl;
 
- hash_table<int>* table = new hash_table<int>(value);
+std::cin >> input;
+
+if(input == 1)
+{
+  hash_table<int>* table = new hash_table<int>(value);
+} else if(input ==2)
+{
+  hash_table<int>* table = new hash_table<int>(value, 5);
+} else
+{
+  return 0;
+
+}
+
+
 
  while(true)
  {
@@ -52,18 +70,14 @@ int main(int argc, char const *argv[]) {
      case 2:
        std::cout << "Choose a number to be deleted from the list:" << '\n';
        std::cin >> input;
-       table->delete_node(input);
+       table->remove(input);
        input = 0;
        break;
 
      case 3:
        table->print();
        break;
-     case 4:
-       std::cout << "exiting..." << '\n';
-
-       break;
-
+    
      default:
        std::cout << "invalid input" << '\n';
        input = 0;
