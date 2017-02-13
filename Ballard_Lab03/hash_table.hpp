@@ -1,8 +1,8 @@
 template <typename T>
 hash_table<T>::hash_table(int prime_num)
 {
-  hash_map = new <T>[prime_num];
-  has_been_used=new bool[prime_num]
+  hash_map = new int[prime_num];
+  has_been_used=new bool[prime_num];
   for(int i=0;i<prime_num; i++)
   {
     hash_map[i]= -1;
@@ -17,7 +17,7 @@ hash_table<T>::hash_table(int prime_num)
 template <typename T>
 hash_table<T>::hash_table(int prime_num, int second_prime_num)
 {
-  hash_map = new <T>[prime_num];
+  hash_map = new int[prime_num];
   has_been_used=new bool[prime_num];
   for(int i=0;i<prime_num; i++)
   {

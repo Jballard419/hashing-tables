@@ -30,7 +30,7 @@ class hash_table
 
   private:
 
-    <T>* hash_map;
+    int* hash_map;
     bool* has_been_used;
     int size_of_map;
     Type_of_hash version;
