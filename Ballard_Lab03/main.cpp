@@ -77,6 +77,8 @@ if(input == 1)
      case 3:
        table->print();
        break;
+      case 4:
+        break;
 
      default:
        std::cout << "invalid input" << '\n';
