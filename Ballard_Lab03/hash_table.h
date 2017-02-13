@@ -22,8 +22,8 @@ class hash_table
 
     int search(const T val);
 
-    int hash_quadtric(const T val, bool insert);
-    int hash_double(const T val, bool insert);
+    int hash_quadtric(const T val);
+    int hash_double(const T val);
 
 
     void print();

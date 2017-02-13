@@ -52,7 +52,7 @@ void hash_table<T>::insert(const T val)
 
 }
 template <typename T>
-void hash_table<T>::delete_node(const T val)
+void hash_table<T>::remove(const T val)
 {
   int key=search(val);
   if (key== -1)
@@ -71,13 +71,10 @@ template <typename T>
 int hash_table<T>::search(const T val)
 {
   int test_key;
+  int second_hash =0;
   if(version== double_hash)
   {
-    int second_hash = second_prime - val%second_prime;
-  }else
-  {
-    int second_hash =0;
-
+    second_hash = second_prime - val%second_prime;
   }
   for(int i=0 ; i< size_of_map;i++)
   {

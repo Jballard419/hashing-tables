@@ -33,15 +33,15 @@ int main(int argc, char const *argv[]) {
  std::cout<<"1- quadratic"<<std::endl;
  std::cout<<"2- double hashing"<<std::endl;
  std::cout<<"3- exit"<<std::endl;
-
+hash_table<int>* table;
 std::cin >> input;
 
 if(input == 1)
 {
-  hash_table<int>* table = new hash_table<int>(value);
+   table = new hash_table<int>(value);
 } else if(input ==2)
 {
-  hash_table<int>* table = new hash_table<int>(value, 5);
+   table = new hash_table<int>(value, 5);
 } else
 {
   return 0;
@@ -77,7 +77,7 @@ if(input == 1)
      case 3:
        table->print();
        break;
-    
+
      default:
        std::cout << "invalid input" << '\n';
        input = 0;
