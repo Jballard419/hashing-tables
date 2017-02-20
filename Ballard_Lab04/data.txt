@@ -1,0 +1,376 @@
+loadfactor -2
+
+srand- 0
+
+quadtric_hash: 
+2e-06
+open_hash: 
+1e-06
+double_hash: 
+2e-06
+
+srand- 1
+
+quadtric_hash: 
+1e-06
+open_hash: 
+2e-06
+double_hash: 
+2e-06
+
+srand- 2
+
+quadtric_hash: 
+2e-06
+open_hash: 
+2e-06
+double_hash: 
+1e-06
+
+srand- 3
+
+quadtric_hash: 
+1e-06
+open_hash: 
+2e-06
+double_hash: 
+2e-06
+
+srand- 4
+
+quadtric_hash: 
+0
+open_hash: 
+2e-06
+double_hash: 
+2e-06
+
+loadfactor -3
+
+srand- 0
+
+quadtric_hash: 
+3e-06
+open_hash: 
+3e-06
+double_hash: 
+3e-06
+
+srand- 1
+
+quadtric_hash: 
+3e-06
+open_hash: 
+3e-06
+double_hash: 
+4e-06
+
+srand- 2
+
+quadtric_hash: 
+3e-06
+open_hash: 
+4e-06
+double_hash: 
+3e-06
+
+srand- 3
+
+quadtric_hash: 
+3e-06
+open_hash: 
+4e-06
+double_hash: 
+4e-06
+
+srand- 4
+
+quadtric_hash: 
+3e-06
+open_hash: 
+4e-06
+double_hash: 
+4e-06
+
+loadfactor -4
+
+srand- 0
+
+quadtric_hash: 
+4e-06
+open_hash: 
+1.7e-05
+double_hash: 
+5e-06
+
+srand- 1
+
+quadtric_hash: 
+4e-06
+open_hash: 
+5e-06
+double_hash: 
+5e-06
+
+srand- 2
+
+quadtric_hash: 
+1.4e-05
+open_hash: 
+5e-06
+double_hash: 
+6e-06
+
+srand- 3
+
+quadtric_hash: 
+5e-06
+open_hash: 
+6e-06
+double_hash: 
+6e-06
+
+srand- 4
+
+quadtric_hash: 
+1.4e-05
+open_hash: 
+5e-06
+double_hash: 
+5e-06
+
+loadfactor -5
+
+srand- 0
+
+quadtric_hash: 
+5e-06
+open_hash: 
+5e-06
+double_hash: 
+7e-06
+
+srand- 1
+
+quadtric_hash: 
+5e-06
+open_hash: 
+6e-06
+double_hash: 
+6e-06
+
+srand- 2
+
+quadtric_hash: 
+5e-06
+open_hash: 
+7e-06
+double_hash: 
+6e-06
+
+srand- 3
+
+quadtric_hash: 
+1.5e-05
+open_hash: 
+7e-06
+double_hash: 
+6e-06
+
+srand- 4
+
+quadtric_hash: 
+1.6e-05
+open_hash: 
+7e-06
+double_hash: 
+7e-06
+
+loadfactor -6
+
+srand- 0
+
+quadtric_hash: 
+3.3e-05
+open_hash: 
+1.7e-05
+double_hash: 
+7e-06
+
+srand- 1
+
+quadtric_hash: 
+6e-06
+open_hash: 
+1.7e-05
+double_hash: 
+7e-06
+
+srand- 2
+
+quadtric_hash: 
+1.6e-05
+open_hash: 
+8e-06
+double_hash: 
+7e-06
+
+srand- 3
+
+quadtric_hash: 
+1.7e-05
+open_hash: 
+7e-06
+double_hash: 
+7e-06
+
+srand- 4
+
+quadtric_hash: 
+1.7e-05
+open_hash: 
+7e-06
+double_hash: 
+7e-06
+
+loadfactor -7
+
+srand- 0
+
+quadtric_hash: 
+7e-06
+open_hash: 
+9e-06
+double_hash: 
+8e-06
+
+srand- 1
+
+quadtric_hash: 
+1.7e-05
+open_hash: 
+8e-06
+double_hash: 
+7e-06
+
+srand- 2
+
+quadtric_hash: 
+1.9e-05
+open_hash: 
+9e-06
+double_hash: 
+8e-06
+
+srand- 3
+
+quadtric_hash: 
+1.8e-05
+open_hash: 
+9e-06
+double_hash: 
+7e-06
+
+srand- 4
+
+quadtric_hash: 
+1.9e-05
+open_hash: 
+9e-06
+double_hash: 
+7e-06
+
+loadfactor -8
+
+srand- 0
+
+quadtric_hash: 
+8e-06
+open_hash: 
+9e-06
+double_hash: 
+8e-06
+
+srand- 1
+
+quadtric_hash: 
+8e-06
+open_hash: 
+9e-06
+double_hash: 
+9e-06
+
+srand- 2
+
+quadtric_hash: 
+8e-06
+open_hash: 
+1.7e-05
+double_hash: 
+8e-06
+
+srand- 3
+
+quadtric_hash: 
+9e-06
+open_hash: 
+9e-06
+double_hash: 
+9e-06
+
+srand- 4
+
+quadtric_hash: 
+1e-05
+open_hash: 
+1.8e-05
+double_hash: 
+8e-06
+
+loadfactor -9
+
+srand- 0
+
+quadtric_hash: 
+1e-05
+open_hash: 
+1e-05
+double_hash: 
+1e-05
+
+srand- 1
+
+quadtric_hash: 
+1.9e-05
+open_hash: 
+9e-06
+double_hash: 
+9e-06
+
+srand- 2
+
+quadtric_hash: 
+2.2e-05
+open_hash: 
+1e-05
+double_hash: 
+1e-05
+
+srand- 3
+
+quadtric_hash: 
+2.1e-05
+open_hash: 
+1e-05
+double_hash: 
+9e-06
+
+srand- 4
+
+quadtric_hash: 
+2.1e-05
+open_hash: 
+1.1e-05
+double_hash: 
+1e-05
+
